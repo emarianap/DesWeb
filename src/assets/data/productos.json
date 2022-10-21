@@ -1,0 +1,57 @@
+[
+        {
+            "PRODUCTO": "Algodones",
+            "DESCRIPCION": "Algodones de azúcar, variedad de colores"
+        },
+        {
+            "PRODUCTO": "Elotes",
+            "DESCRIPCION": "elote en vaso N.8 preparados con limón, sal, crema, mayonesa, queso y chilito "
+        },
+        {
+            "PRODUCTO": "Paletas de hielo",
+            "DESCRIPCION": "variedad de sabores de agua y leche"
+        },
+        {
+            "PRODUCTO": "Hot dogs",
+            "DESCRIPCION": "hot dogs calientitos realizados en el monmento. Incluye jitomate, cebolla y aderezos "
+        },
+        {
+            "PRODUCTO": "Mini pizzas",
+            "DESCRIPCION": "pizzas individuales ideales para niños, incluye sobrecito de catsup"
+        },
+        {
+            "PRODUCTO": "Frituras",
+            "DESCRIPCION": "frituras preparadas"
+        },
+        {
+            "PRODUCTO": "Agua fresca",
+            "DESCRIPCION": "20lts variedad de sabores a escoger entre limón, jamaica y horchata "
+        },
+        {
+            "PRODUCTO": "Nachos",
+            "DESCRIPCION": "plato de nachos con queso y frijoles, chiles en vinagre al gusto"
+        },
+        {
+            "PRODUCTO": "Palomitas",
+            "DESCRIPCIÓN":"bolsa indivual, incluye sobrecito de salsa valentina"
+        },
+        {
+            "PRODUCTO": "Conchitas",
+            "DESCRIPCION": "Conchitas tradicionales preparadas con elote, también manejamos sabritas con costo adicional"
+
+        },
+        {
+            "PRODUCTO": "Manzanas ",
+            "DESCRIPCION": "cubiertas de chamoy o chocolate, también contamos con manzanas locas preparadas con variedad de gomitas y chamoy"
+        },
+        {
+            "PRODUCTO": "Waffles",
+            "DESCRIPCION": "waffle individual tipo Belga con dos toppings a escoger entre cajeta, lechera, nutella, chocolate y mermelada de fresa. Además incluye cremas chantilly y chispas de colores como decoración"
+        },
+        {
+            "PRODUCTO": "churros",
+            "DESCRIPCION": "churros tradicionales de azúcar y canela. Incluye dos topping a elegir entre cajeta, lechera, nutella o chocolate "
+
+        }
+]
+

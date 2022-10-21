@@ -1,1 +1,229 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Lovelo-Black;
+    src: url('../src/fuentes/Lovelo-Black.otf');
+}
+
+@font-face {
+    font-family: Alata;
+    src: url('../src/fuentes/Alata-Regular.ttf');
+}
+
+body{
+    font-family: 'Alata';
+    color: #3F448C;
+}
+
+
+ /* Sección del Navbar */
+.LOS{color: #00c2cb; font-family: 'Lovelo-Black';}
+.PU {color: #7ed957; font-family: 'Lovelo-Black';}
+.ES {color: #33d6f5; font-family: 'Lovelo-Black';}
+.TE {color: #ee8aa8; font-family: 'Lovelo-Black';}
+.CI {color: #ffcd69; font-family: 'Lovelo-Black';}
+.TOS{color: #c193dc; font-family: 'Lovelo-Black';}
+
+.navbar{
+    background-color: #eeee;
+}
+
+/* Sección para masthead (banner principal) */
+.masthead{
+    background: linear-gradient(to right, #6449df, #458aea);
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    font-family: 'Lovelo-Black';
+}
+
+.masthead .masthead-avatar {
+    width: 25rem;
+}
+
+.masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-family: 'Lovelo-Black';
+}
+.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-family: 'Lovelo-Black';
+    font-style: italic;
+}
+
+/* Sección About */
+.page-section {
+    padding: 6rem 0;
+    
+}
+
+.page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+    padding: 2rem;
+
+} 
+
+
+/* Sección Portafolio/galeria */
+
+.portfolio{
+    background-color: #eeee;
+}
+.portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+
+
+
+/* Sección footer */
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #6449df;
+    color: #fff;
+  }
+
+.logfoot{
+    width: 10rem;
+}
+
+
+
+/* Sección Paquetes */
+.container .card{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+  .container .card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #ffff;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out; */
+  }
+  .container .card1:before {
+    background: #8042fa;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .container .card2:before {
+    background: #f43e69;;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+
+  .container .card3:before {
+    background: #2fb8ac;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .container .card:hover:before{
+    clip-path: circle(305px at 50% -20%);
+  }
+ 
+  
+  .container .card .imgBx{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+  }
+  
+  .container .card:hover .imgBx{
+    top: 0%;
+    transform: translateY(0%);
+      
+  }
+  
+  .container .card .imgBx img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-1deg);
+    width: 270px;
+  }
+  
+  .container .card .contentBx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+  }
+  
+  .container .card:hover .contentBx{
+    height: 210px;
+  }
+  
+  .container .card .contentBx h2{
+    position: relative;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 2px;
+  }
+
+  .info ul li{
+    height: 20px;
+  }
+  
+  .container .card .contentBx .info, .container .card .contentBx .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;opacity: 0;
+    visibility: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .container .card:hover .contentBx .info{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+  }
+  
+  .container .card:hover .contentBx .price{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.6s;
+  }
+  
+  .container .card .contentBx .info h3, .container .card .contentBx .price p{
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+
+  }
+  
+  
+ 
+  
+  
+ 
+  
