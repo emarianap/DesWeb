@@ -1,7 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
-const URL = 'assets/data/productos.json';
 
 @Injectable({
     providedIn: 'root',
@@ -9,8 +8,15 @@ const URL = 'assets/data/productos.json';
 
 export class ProductoService{
     constructor(private http: HttpClient) {}
-
+    URL = "http://localhost/back/";
     getAll(){
-        return this,this.http.get(URL)
+        return this.http.get(`${this.URL}getall.php`);
+    }
+
+    agregar(producto:string){
+
+        return this.http.post(`${this.URL}post.php`,JSON.stringify(producto));
+
     }
 }
+

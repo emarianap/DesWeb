@@ -109,21 +109,51 @@
     </div>
 </section>
 
-<section style="padding: 3%;">
+<section class="page-section" style="padding: 3%;">
   <h2 class="page-section-heading text-center text-uppercase text-secondary p-3">PRODUCTOS</h2>
-    <div class="row">
-      <div class="col">
-        <div class="card mb-3" *ngFor="let item of ProductosList">
+    <div class="row justify-content-center">
+        <div class="col-sm-4 col-md-6 mb-2 card border rounded" *ngFor="let item of ProductosList">
           <img src="assets/img/Products/{{item.PRODUCTO}}.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">{{item.PRODUCTO}}</h5>
-            <p class="card-text">{{item.DESCRIPCION}}</p>
+            <h5 class="card-title">{{item.producto}}</h5>
+            <p class="card-text">{{item.Descripcion}}</p>
           </div>
         </div>
-      </div>
     </div>
   
 </section>
+
+<div class="col" style="padding: 3%;">
+
+  <form [formGroup]="productForm">
+
+    <div class="input-group mb-3">
+
+      <div class="input-group-pretend">
+
+        <span class="input-group-text">Nuevo Producto</span>
+
+      </div>
+
+        <input formControlName="id_productos" type="text" class="form-control" placeholder="id_productos">
+        <input formControlName="producto" type="text" class="form-control" placeholder="producto">
+        <input formControlName="Descripcion" type="text" class="form-control" placeholder="Descripción">
+
+    </div>
+
+    <button (click)="Agregar()" class="btn btn-dark mb-2">
+
+      agregar
+
+    </button>
+
+  </form>
+
+</div>
+
+
+
+
 
 
 

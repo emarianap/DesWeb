@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppToutingModule } from 'src/assets/app.routes';
 import { HttpClientModule} from '@angular/common/http';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar/navbar.component';
@@ -29,7 +30,9 @@ import { ServiciosComponent } from './componentes/servicios/servicios/servicios.
   imports: [
     BrowserModule,
     AppToutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
